@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: linear-gradient(240deg, #270245, #fe18d3, #ff2941);
+    background-image: linear-gradient(240deg, #270245, #871a85, #ff2941);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -19,5 +19,5 @@ body {
     position: relative;
     width: 500px;
     height: 300px;
-    background: white;
+    background: rgba(225, 255, 255, 0.1);
 }
