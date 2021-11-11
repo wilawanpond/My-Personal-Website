@@ -39,6 +39,7 @@ body {
 .contact-card .content {
     position: relative;
     display: flex;
+    margin-left: 30px;
 }
 .contact-card .content .myimg {
     position: relative;
@@ -46,4 +47,13 @@ body {
     height: 120px;
     overflow: hidden;
     border-radius: 50%;
+    box-shadow: 0 0 0 10px rgba(225, 255, 255, 0.03);
+}
+.contact-card .content .myimg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
