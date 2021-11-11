@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Asap:wght@500&family=Merriweather&family=Noto+Sans:wght@700&display=swap');
 *
 {
     margin: 0;
@@ -39,7 +39,8 @@ body {
 .contact-card .content {
     position: relative;
     display: flex;
-    margin-left: 30px;
+    align-items: center;
+    margin-left: 5px;
     gap: 20px;
 }
 .contact-card .content .myimg {
@@ -69,8 +70,9 @@ body {
     align-items: center;
     gap: 10px;
 }
-.contact-card .content .details h3{
+.contact-card .content .details h2{
     font-weight: 500;
+    font-family: 'Noto Sans', sans-serif !important;
 }
 .contact-card .content .details ion-icon {
     font-size: 1.4em;
