@@ -36,3 +36,16 @@ section {
     font-weight: 500;
     font-family: 'Alice', sans-serif !important;
 }
+.button {
+    position: relative;
+    background: #ff2941;
+    display: inline-block;
+    border-radius: 50px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
