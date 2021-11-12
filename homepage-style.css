@@ -48,4 +48,11 @@ section {
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: 500;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.button:hover {
+    background: #feff38;
+    color: black;
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.15);
 }
