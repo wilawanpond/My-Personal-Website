@@ -32,3 +32,24 @@ header .logo {
     justify-content: center;
     align-items: center;
 }
+.group ul li {
+    list-style: none;
+}
+.group ul li a {
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.group ul li a:hover {
+    color: blue;
+}
+.group .contact {
+    margin-left: 20px;
+}
+.group .contact li a {
+    font-size: 1.25em;
+}
+.banner {
+    position: relative;
+    width: 100%;
+}
