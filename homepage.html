@@ -9,15 +9,16 @@
     <body>
         <header>
             <a href="#" class="logo">Arteria</a>
-            <div class="toggle"></div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#certi">Certifications</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#contact">Contacts</a></li>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="menu">
+                <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu();">About</a></li>
+                <li><a href="#certi" onclick="toggleMenu();">Certifications</a></li>
+                <li><a href="#" onclick="toggleMenu();">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contacts</a></li>
             </ul>
         </header>
+
         <section class="banner" id="home">
             <div class="textbox">
                 <h2>Greetings, I'm<br><span>Wilawan Phadungphol.</span></h2>
@@ -168,6 +169,14 @@
                 var header = document.querySelector('header');
                 header.classList.toggle('sticky', window.scrollY > 0);
             });
+
+            function toggleMenu(){
+                var menuToggle = document.querySelector('.toggle');
+                var menu = document.querySelector('.menu');
+                menuToggle.classList.toggle('active');
+                menu.classList.toggle('active');
+            }
+
         </script>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
