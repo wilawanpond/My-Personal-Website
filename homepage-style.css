@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto sans', sans-serif;
+    scroll-behavior: smooth;
 }
 section {
     padding: 100px;
@@ -16,7 +17,6 @@ section {
     min-height: 100vh;
     background: url(homepagebg.jpg);
     background-size: cover;
-    background-position: right;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -303,4 +303,7 @@ header ul li a {
     color: white;
     text-align: center;
     padding: 10px;
+}
+.copyright p {
+    font-family: 'Poppins', sans-serif !important;
 }
