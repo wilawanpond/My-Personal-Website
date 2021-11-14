@@ -279,7 +279,7 @@ header ul li a {
 .contactInfo .box .icon {
     min-width: 40px;
     padding: 4px;
-    color: rgb(138,185,241);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -297,4 +297,10 @@ header ul li a {
     font-weight: 500;
     color: rgb(121, 181, 255);
     margin-bottom: 0px;
+}
+.copyright {
+    background: rgba(220,20,60, 1);
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
