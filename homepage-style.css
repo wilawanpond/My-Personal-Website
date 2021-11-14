@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Calistoga&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Asap:wght@500&family=Merriweather&family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Serif+Pro&display=swap');
 
 * {
     margin: 0;
@@ -34,7 +35,7 @@ section {
     font-size: 1.5em;
     color: white;
     font-weight: 500;
-    font-family: 'Alice', sans-serif !important;
+    font-family: 'Source Serif Pro', serif !important;
 }
 .button {
     position: relative;
@@ -79,7 +80,7 @@ header .logo {
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 2px;
-    font-family: 'Merriweather', sans-serif !important;
+    font-family: 'Archivo Black', sans-serif !important;
 }
 header ul {
     position: relative;
@@ -116,6 +117,7 @@ header ul li a {
 }
 .W50 img {
     max-width: 100%;
+    border-radius: 20px;
 } 
 .content {
     display: flex;
@@ -127,11 +129,172 @@ header ul li a {
 .contentbx h3 {
     font-size: 24px;
     margin-bottom: 10px;
-    font-family: 'Calistoga', cursive;
+    font-family: 'Archivo Black', sans-serif;
     letter-spacing: 1.5px;
 }
 .contentbx p {
     font-size: 15px;
     line-height: 32px;
-    font-family: 'Merriweather', sans-serif;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+.certifications {
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}
+.certifications .heading p {
+    color: white;
+    font-family: 'Poppins', sans-serif !important;
+}
+.certifications .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.certifications .content .certificatesbx h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2em;
+}
+.certifications .content .certificatesbx p {
+    font-size: 15px;
+    line-height: 1.5em;
+    font-family: 'Poppins', sans-serif !important;
+}
+.certifications .content .certificatesbx {
+    position: relative;
+    padding: 40px 20px;
+    background: rgba(225, 255, 255, 0.1);
+    border-radius: 20px;
+    border-top: 1px solid rgba(225, 255, 255, 0.5);
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    color: white;
+    max-width: 320px;
+    margin: 15px;
+    text-align: center;
+    transition: 0.5s;
+}
+.cerbutton {
+    position: relative;
+    background: white;
+    display: inline-block;
+    border-radius: 20px;
+    color: #ff2941;
+    margin-top: 20px; 
+    padding: 10px 50px;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.cerbutton:hover {
+    background: #feff38;
+    color: black;
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.15);
+}
+.certifications .content .certificatesbx:hover {
+    background-image: linear-gradient(120deg, #270245, #871a85, #ff2941);
+}
+.certifications .content .certificatesbx img {
+    max-width: 150px;
+}
+.contact {
+    position: relative;
+    background: url(Background.svg);
+    min-height: 100vh;
+    background-size: cover;
+}
+.contact .heading p {
+    color: white;
+    font-family: 'Poppins', sans-serif !important;
+}
+.formBx {
+    min-width: 60%;
+}
+.formBx form {
+    display: flex;
+    flex-direction: column;
+}
+.formBx form h3,
+.contactInfo h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.formBx form input,
+.formBx form textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    resize: none;
+    color: white;
+    font-family: 'Poppins', sans-serif !important;
+    /*Glassmo box!*/
+    position: relative;
+    background: rgba(225, 255, 255, 0.12);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border-bottom: 1px solid rgba(225, 255, 255, 0.5);
+}
+.formBx form textarea {
+    min-height: 150px;
+}
+.formBx form input::placeholder,
+.formBx form textarea::placeholder {
+    color: rgba(225, 255, 255, 0.8);
+    font-family: 'Poppins', sans-serif !important;
+}
+.formBx form input[type="submit"] {
+    max-width: 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.formBx form input[type="submit"]:hover {
+    background: rgba(138,185,241, 0.4);
+}
+.contactInfo {
+    min-width: 40%;
+}
+.contactInfoBox {
+    position: relative;
+}
+.contactInfoBox p {
+    font-family: 'Poppins', sans-serif !important;
+}
+.contactInfo .box {
+    position: relative;
+    padding: 16px 0;
+    display: flex;
+}
+.contactInfo .box .icon {
+    min-width: 40px;
+    padding: 4px;
+    color: rgb(138,185,241);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 24px;
+}
+.contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: white;
+    flex-direction: column;
+    font-weight: 300;
+}
+.contactInfo .box .text h3 {
+    font-weight: 500;
+    color: rgb(121, 181, 255);
+    margin-bottom: 0px;
 }
