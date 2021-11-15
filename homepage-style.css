@@ -15,7 +15,7 @@ section {
 .banner {
     position: relative;
     min-height: 100vh;
-    background: url(homepagebg.jpg);
+    background: url(ProfileBg.svg);
     background-size: cover;
     display: flex;
     justify-content: space-between;
@@ -257,6 +257,7 @@ header ul li a {
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 2px;
+    transition: 0.5s;
 }
 .formBx form input[type="submit"]:hover {
     background: rgba(138,185,241, 0.4);
