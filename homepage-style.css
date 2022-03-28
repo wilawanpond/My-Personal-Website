@@ -15,7 +15,7 @@ section {
 .banner {
     position: relative;
     min-height: 100vh;
-    background: url(ProfileBg.svg);
+    background: url(Images/ProfileBg.svg);
     background-size: cover;
     display: flex;
     justify-content: space-between;
@@ -343,14 +343,14 @@ header ul li a {
     .toggle {
         width: 40px;
         height: 40px;
-        background: url(menu.png);
+        background: url(Images/menu.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 30px;
         cursor: pointer;
     }
     .toggle.active {
-        background: url(close.png);
+        background: url(Images/close.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 25px;
